@@ -1,0 +1,12 @@
+const {schedule} = requires('@netlify/functions')
+
+const handler = async function(event, context) {
+    console.log("Received event:", event)
+
+    return {
+        statusCode: 200,
+        body: "Hello World!",
+    };
+};
+
+module.exports.handler = schedule("0 0 * * *", handler);
