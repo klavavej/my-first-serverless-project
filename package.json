@@ -18,5 +18,8 @@
   "homepage": "https://github.com/klavavej/my-first-serverless-project#readme",
   "devDependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "dependencies": {
+    "@netlify/functions": "^0.11.0-rc"
   }
 }
