@@ -25,3 +25,24 @@ schedule = "0 0 * * *"
 
 [functions."fix-test"]
 schedule = "0 0 * * *"
+
+[functions."toml-annually"]
+schedule = "@annually"
+
+[functions."toml-yearly"]
+schedule = "@yearly"
+
+[functions."toml-monthly"]
+schedule = "@monthly"
+
+[functions."toml-weekly"]
+schedule = "@weekly"
+
+[functions."toml-daily"]
+schedule = "@daily"
+
+[functions."toml-hourly"]
+schedule = "@hourly"
+
+[functions."hello-world"]
+schedule = "@hourly"
