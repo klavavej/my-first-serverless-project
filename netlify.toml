@@ -26,9 +26,6 @@ schedule = "0 0 * * *"
 [functions."fix-test"]
 schedule = "0 0 * * *"
 
-[functions."toml-annually"]
-schedule = "@annually"
-
 [functions."toml-yearly"]
 schedule = "@yearly"
 
