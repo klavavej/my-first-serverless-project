@@ -43,3 +43,6 @@ schedule = "@hourly"
 
 [functions."hello-world"]
 schedule = "@hourly"
+
+[functions."toml-annually"]
+schedule = "@annually"
